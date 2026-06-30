@@ -1,0 +1,103 @@
+{
+  "project_name": "Accounting Firm Informational Website",
+  "theme": "Light",
+  "archetype": "4 (Swiss & High-Contrast)",
+  "emotional_tone": "Professional, Authoritative, Trustworthy, Modern Corporate",
+  "design_principles": [
+    "Trust-building typography with high contrast",
+    "Clean data and service visualization over decorative fluff",
+    "Asymmetric layouts to break the 'boring corporate' mold while maintaining authority",
+    "Generous negative space (p-12, p-24) to convey premium service"
+  ],
+  "typography": {
+    "headings": {
+      "family": "Cabinet Grotesk, sans-serif",
+      "strategy": "Swiss Brutalist - strong weight contrast (Black vs Light). Do not use Inter or generic sans for headings.",
+      "scales": {
+        "h1": "text-5xl md:text-6xl tracking-tight leading-none",
+        "h2": "text-3xl md:text-4xl tracking-tight",
+        "h3": "text-2xl",
+        "h4": "text-xl"
+      }
+    },
+    "body": {
+      "family": "IBM Plex Sans, sans-serif",
+      "strategy": "Sterile, clean, highly legible for corporate financial data.",
+      "scales": {
+        "default": "text-base leading-relaxed",
+        "small": "text-sm",
+        "overline": "text-xs tracking-[0.2em] uppercase font-medium text-slate-500"
+      }
+    }
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "surface": "#F8F9FA",
+    "surface_alt": "#F1F5F9",
+    "primary": "#0A1F44", 
+    "primary_hover": "#102F63",
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#475569",
+      "inverse": "#FFFFFF"
+    },
+    "accent": "#E2E8F0",
+    "borders": "#E2E8F0"
+  },
+  "layout_and_spacing": {
+    "grid_strategy": "Bento Grid (Mode A) for Services overview on Home. Asymmetric overlapping sections for 'Quem Somos'.",
+    "spacing_scale": "Use p-8, p-12, p-24 for section paddings. Avoid cramped layouts.",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  },
+  "components": {
+    "buttons": "Square or very subtly rounded (rounded-sm). Primary button uses #0A1F44 background with white text. Hover state is a lighter navy (#102F63).",
+    "cards": "Flat solid surfaces. 1px border (#E2E8F0). No heavy shadows. Hover: Slight lift (-translate-y-1) and shadow-lg.",
+    "header": "Crystal Glassmorphism (backdrop-blur-xl bg-white/80) with 1px delicate inner stroke (border-b border-slate-200). Sticky top, z-50. Must include language switcher (PT, EN, ES).",
+    "navigation": "Desktop: Visible links. Services must be a Dropdown Menu. Mobile: Hamburger menu (Shadcn Sheet).",
+    "forms": "Shadcn UI inputs. Left-aligned labels. Sharp edges.",
+    "icons": "lucide-react for sharp, consistent corporate iconography."
+  },
+  "pages": {
+    "home": "Hero section with strong H1, primary CTA. Bento grid for quick overview of Services. Trust indicators (mock partner logos). Latest 2-3 blog posts.",
+    "quem_somos": "About Us. Asymmetric layout combining corporate office imagery and textual narrative. Mission/Vision/Values.",
+    "servicos": "Detailed services page. Use Shadcn Accordion or Tabs for detailed breakdown (Contabilidade Geral, Fiscalidade, Recursos Humanos, Consultoria).",
+    "blog": "Pre-formatted list of articles. Use grid layout. Include placeholders for title, excerpt, date, image.",
+    "recrutamento": "Careers page. Open positions list. Simple application CTA.",
+    "contactos": "Contact Us. Split layout: Left side contact details, map embedded, social links (FB, IG, LI). Right side Shadcn form."
+  },
+  "media": {
+    "hero_architecture": [
+      "https://images.unsplash.com/photo-1547321627-2479fe834b1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHdoaXRlfDE3ODI4MzMwOTN8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1660599298586-e58c81b28e8c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwyfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHdoaXRlfDE3ODI4MzMwOTN8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "team_meetings": [
+      "https://images.pexels.com/photos/6950031/pexels-photo-6950031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/12903168/pexels-photo-12903168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHMlMjBtZWV0aW5nfGVufDB8fHx8MTc4MjgzMzA5M3ww&ixlib=rb-4.1.0&q=85"
+    ],
+    "finance_charts": [
+      "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBjaGFydCUyMGFuYWx5c2lzfGVufDB8fHx8MTc4MjgzMzA5M3ww&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "motion_and_interactions": {
+    "hover_states": "All interactive elements must explicitly change state. Text links underline or color shift. Buttons change bg-color.",
+    "page_transitions": "Subtle fade-in and slide-up (framer-motion). Not overly bouncy. Professional ease-out.",
+    "scrolling": "Smooth scroll (lenis) is recommended for a premium feel."
+  },
+  "accessibility_and_testing": {
+    "contrast": "Ensure text over gray backgrounds meets APCA standards. Navy blue on white is excellent.",
+    "test_ids": "CRITICAL: Add data-testid attributes to all interactive elements (buttons, links, form inputs, language switcher)."
+  },
+  "instructions_to_main_agent": [
+    "Use standard React/Tailwind/Shadcn for implementation.",
+    "Create the multi-page structure (Home, Quem Somos, Serviços, Blog, Recrutamento, Contacta-nos).",
+    "Build the language switcher in the Header (PT as default).",
+    "For Services, implement a hover/click dropdown in the Navigation.",
+    "Do NOT use purple or teal. Stick strictly to the White and Navy Blue (#0A1F44) palette.",
+    "Populate the Blog page with at least 3 well-formatted example posts using the finance chart and meeting images.",
+    "Integrate lucide-react for social icons (Facebook, Instagram, LinkedIn) on the Contact page and Footer.",
+    "Apply data-testid to every interactive element (e.g. data-testid='nav-home', data-testid='lang-switcher', data-testid='contact-submit-button').",
+    "Ensure the hero image has an appropriate overlay if text is placed on top of it, but prefer white background with text and image alongside for this archetype.",
+    "Use raw HTML/Tailwind classes for complex layouts; use Shadcn strictly for interactive UI components."
+  ]
+}
