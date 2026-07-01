@@ -18,11 +18,11 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-5">
               <div className="w-9 h-9 bg-white flex items-center justify-center">
                 <span className="text-navy font-display font-bold text-lg leading-none">
-                  [N]
+                  RR
                 </span>
               </div>
               <span className="font-display font-bold text-white text-base tracking-tight">
-                [Nome Empresa]
+                Reis&Reis
               </span>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">
@@ -111,7 +111,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <p className="text-xs text-slate-400">
-            © {year} [Nome Empresa]. {t.footer.rights}
+            © {year} Reis&Reis. {t.footer.rights}
           </p>
           <div className="flex items-center gap-5 text-xs text-slate-400">
             <a href="#" className="hover:text-white">{t.footer.privacy}</a>

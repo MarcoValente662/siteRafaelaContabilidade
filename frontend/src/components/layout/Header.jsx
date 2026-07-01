@@ -51,12 +51,12 @@ const Header = () => {
           >
             <div className="w-9 h-9 bg-navy flex items-center justify-center">
               <span className="text-white font-display font-bold text-lg leading-none">
-                [N]
+                RR
               </span>
             </div>
             <div className="flex flex-col leading-none">
               <span className="font-display font-bold text-navy text-base tracking-tight">
-                [Nome Empresa]
+                Reis&Reis
               </span>
               <span className="text-[10px] tracking-[0.2em] uppercase text-slate-500 mt-0.5">
                 Contabilidade
@@ -207,7 +207,7 @@ const Header = () => {
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between p-6 border-b border-slate-200">
                     <span className="font-display font-bold text-navy">
-                      [Nome Empresa]
+                      Reis&Reis
                     </span>
                     <button
                       onClick={closeMobile}

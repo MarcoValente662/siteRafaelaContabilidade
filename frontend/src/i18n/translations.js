@@ -20,7 +20,7 @@ export const translations = {
       payroll: "Processamento Salarial",
     },
     home: {
-      eyebrow: "Empresa de Contabilidade",
+      eyebrow: "Serviços de contabilidade",
       heroTitle: "Clareza financeira para decisões empresariais sólidas.",
       heroSub: "Há mais de [XX] anos a apoiar empresas e empresários com serviços de contabilidade, fiscalidade e consultoria de gestão.",
       ctaPrimary: "Os nossos serviços",
@@ -32,7 +32,7 @@ export const translations = {
       sectionEyebrow: "O que fazemos",
       sectionTitle: "Serviços contabilísticos completos.",
       sectionSub: "Soluções integradas para empresas, profissionais liberais e empresários em nome individual.",
-      whyEyebrow: "Porquê [Nome Empresa]",
+      whyEyebrow: "Porquê Reis&Reis",
       whyTitle: "Rigor técnico. Tempo recuperado.",
       whySub: "Acompanhamento contínuo, prazos garantidos e a tranquilidade de saber que as suas obrigações estão a ser tratadas por profissionais certificados.",
       why1Title: "Certificação OCC",
@@ -60,7 +60,7 @@ export const translations = {
       values: "Rigor • Transparência • Confidencialidade • Proximidade • Inovação",
       storyEyebrow: "A nossa história",
       storyTitle: "Desde [XXXX] ao serviço das empresas.",
-      storyP1: "[Nome Empresa] nasceu com um propósito simples: tornar a contabilidade um aliado estratégico do negócio, e não uma obrigação distante. Ao longo dos anos, construímos uma base de clientes fiéis baseada em rigor técnico, comunicação clara e relações de longo prazo.",
+      storyP1: "Reis&Reis nasceu com um propósito simples: tornar a contabilidade um aliado estratégico do negócio, e não uma obrigação distante. Ao longo dos anos, construímos uma base de clientes fiéis baseada em rigor técnico, comunicação clara e relações de longo prazo.",
       storyP2: "Hoje contamos com uma equipa multidisciplinar e ferramentas digitais que permitem oferecer um serviço completo — da contabilidade corrente à consultoria estratégica.",
       teamEyebrow: "Equipa",
       teamTitle: "Profissionais certificados ao seu lado.",
@@ -124,7 +124,7 @@ export const translations = {
     recruitment: {
       eyebrow: "Recrutamento",
       title: "Junte-se a uma equipa que valoriza o rigor e as pessoas.",
-      sub: "Em [Nome Empresa] procuramos profissionais ambiciosos, rigorosos e com vontade de crescer.",
+      sub: "Em Reis&Reis procuramos profissionais ambiciosos, rigorosos e com vontade de crescer.",
       whyJoinTitle: "Porquê trabalhar connosco?",
       benefit1: "Plano de carreira estruturado",
       benefit2: "Formação contínua e certificações pagas",
@@ -215,7 +215,7 @@ export const translations = {
       payroll: "Payroll",
     },
     home: {
-      eyebrow: "Accounting Firm",
+      eyebrow: "Accounting services",
       heroTitle: "Financial clarity for confident business decisions.",
       heroSub: "For over [XX] years, supporting companies and entrepreneurs with accounting, tax and management consulting services.",
       ctaPrimary: "Our services",
@@ -360,7 +360,7 @@ export const translations = {
       payroll: "Nóminas",
     },
     home: {
-      eyebrow: "Empresa de Contabilidad",
+      eyebrow: "Servicios de contabilidad",
       heroTitle: "Claridad financiera para decisiones empresariales sólidas.",
       heroSub: "Hace más de [XX] años apoyando a empresas y emprendedores con servicios de contabilidad, fiscalidad y consultoría de gestión.",
       ctaPrimary: "Nuestros servicios",
