@@ -63,8 +63,8 @@ export const translations = {
       storyP1: "Reis&Reis nasceu com um propósito simples: tornar a contabilidade um aliado estratégico do negócio, e não uma obrigação distante. Ao longo dos anos, construímos uma base de clientes fiéis baseada em rigor técnico, comunicação clara e relações de longo prazo.",
       storyP2: "Hoje contamos com uma equipa multidisciplinar e ferramentas digitais que permitem oferecer um serviço completo — da contabilidade corrente à consultoria estratégica.",
       teamEyebrow: "Equipa",
-      teamTitle: "Profissionais certificados ao seu lado.",
-      teamSub: "Uma equipa que combina anos de experiência com formação contínua para acompanhar todas as alterações fiscais.",
+      teamTitle: "CONHEÇA A NOSSA EQUIPA.",
+      teamSub: "Profissionais certificados ao seu lado.",
     },
     servicesPage: {
       eyebrow: "Serviços",
@@ -258,8 +258,8 @@ export const translations = {
       storyP1: "[Company Name] was born with a simple purpose: to make accounting a strategic ally to the business, not a distant obligation. Over the years we have built a loyal client base based on technical rigor, clear communication and long-term relationships.",
       storyP2: "Today we have a multidisciplinary team and digital tools that allow us to offer a complete service — from day-to-day accounting to strategic consulting.",
       teamEyebrow: "Team",
-      teamTitle: "Certified professionals by your side.",
-      teamSub: "A team that combines years of experience with continuous training to keep up with every tax change.",
+      teamTitle: "MEET OUR TEAM.",
+      teamSub: "Certified professionals by your side.",
     },
     servicesPage: {
       eyebrow: "Services",
@@ -403,8 +403,8 @@ export const translations = {
       storyP1: "[Nombre Empresa] nació con un propósito simple: convertir la contabilidad en un aliado estratégico del negocio, no en una obligación lejana. A lo largo de los años hemos construido una base de clientes leales basada en rigor técnico, comunicación clara y relaciones de largo plazo.",
       storyP2: "Hoy contamos con un equipo multidisciplinar y herramientas digitales que nos permiten ofrecer un servicio completo — desde la contabilidad corriente hasta la consultoría estratégica.",
       teamEyebrow: "Equipo",
-      teamTitle: "Profesionales certificados a tu lado.",
-      teamSub: "Un equipo que combina años de experiencia con formación continua para acompañar todos los cambios fiscales.",
+      teamTitle: "CONOZCA A NUESTRO EQUIPO.",
+      teamSub: "Profesionales certificados a tu lado.",
     },
     servicesPage: {
       eyebrow: "Servicios",
