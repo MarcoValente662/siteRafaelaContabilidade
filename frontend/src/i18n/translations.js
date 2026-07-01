@@ -51,7 +51,13 @@ export const translations = {
     about: {
       eyebrow: "Quem Somos",
       title: "Sobre Nós.",
-      sub: "A Reis & Reis é uma empresa de contabilidade com mais de 17 anos de experiência, com escritórios em Almancil (Algarve) e em Lisboa.Neste momento a Reis & Reis fornece os seus serviços a empresas nacionais e internacionais de diversos setores de atividade e a um leque de clientes particulares de inúmeras nacionalidades e com necessidades distintas, sempre com o objetivo de providenciar o melhor serviço e aconselhamento.\nA nossa equipa de profissionais especializados nas áreas de contabilidade, fiscalidade e recursos-humanos, procura prestar o melhor apoio a cada cliente, ajustado às suas necessidades específicas.\nEnquanto empresa, a Reis & Reis preza pela honestidade, integridade e justiça perante todos aqueles com os quais mantém relações profissionais, assegurando assim o seu crescimento continuo.",
+      sub: `A Reis & Reis é uma empresa de contabilidade com mais de 17 anos de experiência, com escritórios em Almancil (Algarve) e em Lisboa.
+      
+      Neste momento a Reis & Reis fornece os seus serviços a empresas nacionais e internacionais de diversos setores de atividade e a um leque de clientes particulares de inúmeras nacionalidades e com necessidades distintas, sempre com o objetivo de providenciar o melhor serviço e aconselhamento.
+      
+      A nossa equipa de profissionais especializados nas áreas de contabilidade, fiscalidade e recursos-humanos, procura prestar o melhor apoio a cada cliente, ajustado às suas necessidades específicas.
+      
+      Enquanto empresa, a Reis & Reis preza pela honestidade, integridade e justiça perante todos aqueles com os quais mantém relações profissionais, assegurando assim o seu crescimento continuo.`,
       missionLabel: "Missão",
       mission: "Prestar o melhor serviço a cada cliente, ajustado às suas necessidades e objetivos específicos. Através dos nossos serviços pretendemos que seja alcançado o sucesso de ambas as partes.",
       visionLabel: "Visão",
@@ -246,7 +252,13 @@ export const translations = {
     about: {
       eyebrow: "About Us",
       title: "About Us",
-      sub: "Reis & Reis is an accounting firm with more than 17 years of experience, with offices in Almancil (Algarve) and in Lisbon.\nAs of now, Reis & Reis provides its services to national and international companies in several activity sectors and to a wide range of private clients of several nationalities and with different needs, always aiming to provide the best service and advice.\nOur team of specialized professionals in the areas of accounting, taxation and human resources seeks to provide the best support to each client, adjusted to its specific needs.\nAs a company, Reis & Reis values honesty, integrity and justice towards all those with whom it maintains professional relations, thus ensuring its continuous growth.",
+      sub: `Reis & Reis is an accounting firm with more than 17 years of experience, with offices in Almancil (Algarve) and in Lisbon.
+      
+      As of now, Reis & Reis provides its services to national and international companies in several activity sectors and to a wide range of private clients of several nationalities and with different needs, always aiming to provide the best service and advice.
+      
+      Our team of specialized professionals in the areas of accounting, taxation and human resources seeks to provide the best support to each client, adjusted to its specific needs.
+      
+      As a company, Reis & Reis values honesty, integrity and justice towards all those with whom it maintains professional relations, thus ensuring its continuous growth.`,
       missionLabel: "Mission",
       mission: "To provide the best service to each client, adjusted to their specific needs and objectives. Through our services we aim to achieve success for both parties.",
       visionLabel: "Vision",
@@ -391,7 +403,13 @@ export const translations = {
     about: {
       eyebrow: "Quiénes Somos",
       title: "Sobre Nosotros",
-      sub: "Reis & Reis es una empresa de contabilidad con más de 17 años de experiencia, con oficinas en Almancil (Algarve) y en Lisboa.\nEn la actualidad, Reis & Reis presta sus servicios a empresas nacionales e internacionales de diversos sectores de actividad y a un amplio abanico de clientes particulares de varias nacionalidades y con diferentes necesidades, siempre con el objetivo de prestar el mejor servicio y asesoramiento.\nNuestro equipo de profesionales especializados en las áreas de contabilidad, fiscalidad y recursos humanos busca dar el mejor apoyo a cada cliente, ajustado a sus necesidades específicas.\nComo empresa, Reis & Reis valora la honestidad, la integridad y la justicia hacia todos aquellos con los que mantiene relaciones profesionales, asegurando así su continuo crecimiento.",
+      sub: `Reis & Reis es una empresa de contabilidad con más de 17 años de experiencia, con oficinas en Almancil (Algarve) y en Lisboa.
+      
+      En la actualidad, Reis & Reis presta sus servicios a empresas nacionales e internacionales de diversos sectores de actividad y a un amplio abanico de clientes particulares de varias nacionalidades y con diferentes necesidades, siempre con el objetivo de prestar el mejor servicio y asesoramiento.
+      
+      Nuestro equipo de profesionales especializados en las áreas de contabilidad, fiscalidad y recursos humanos busca dar el mejor apoyo a cada cliente, ajustado a sus necesidades específicas.
+      
+      Como empresa, Reis & Reis valora la honestidad, la integridad y la justicia hacia todos aquellos con los que mantiene relaciones profesionales, asegurando así su continuo crecimiento.`,
       missionLabel: "Misión",
       mission: "Proporcionar el mejor servicio a cada cliente, ajustado a sus necesidades y objetivos específicos. A través de nuestros servicios pretendemos conseguir el éxito de ambas partes.",
       visionLabel: "Visión",
