@@ -84,10 +84,13 @@ const QuemSomos = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: "[Nome Sócio]", role: "[Contabilista Certificado]", img: "https://images.pexels.com/photos/6950031/pexels-photo-6950031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" },
-              { name: "[Nome Sócio]", role: "[Consultor Fiscal]", img: "https://images.pexels.com/photos/12903168/pexels-photo-12903168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" },
-              { name: "[Nome Sócio]", role: "[Auditor]", img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHMlMjBtZWV0aW5nfGVufDB8fHx8MTc4MjgzMzA5M3ww&ixlib=rb-4.1.0&q=85" },
-              { name: "[Nome Sócio]", role: "[Gestão & RH]", img: "https://images.unsplash.com/photo-1660599298586-e58c81b28e8c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwyfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHdoaXRlfDE3ODI4MzMwOTN8MA&ixlib=rb-4.1.0&q=85" },
+              { name: "Carlos Reis", role: "Contabilista Certificado", img: "https://reisreis.pt/wp-content/uploads/2023/01/Carlos_Reis.png" },
+              { name: "Aurora Reis", role: "Gestora Financeira", img: "https://reisreis.pt/wp-content/uploads/2023/01/Aurora.png" },
+              { name: "Francisco Mata", role: "Contabilista Certificado", img: "https://reisreis.pt/wp-content/uploads/2026/06/Francisco-Mata-2-scaled.jpg" },
+              { name: "Bruno B", role: "Gestor de Clientes", img: "https://reisreis.pt/wp-content/uploads/2026/06/BRUNO-B.jpg" },
+              { name: "Rafaela Reis", role: "Finalista da Licenciatura em Fiscalidade", img: "https://reisreis.pt/wp-content/uploads/2026/06/RafaelaReis.jpg" },
+              { name: "Ana Pais", role: "Secretária", img: "https://reisreis.pt/wp-content/uploads/2023/01/Ana_pais.png" },
+              { name: "Recrutamento", role: "Submete aqui a tua candidatura espontânea e envia-nos o teu CV em 'Recrutamento'", img: "https://reisreis.pt/wp-content/uploads/2026/06/interrogacao.png" },
             ].map((m, i) => (
               <div key={i} data-testid={`team-${i}`}>
                 <div className="aspect-[3/4] overflow-hidden bg-slate-100">
