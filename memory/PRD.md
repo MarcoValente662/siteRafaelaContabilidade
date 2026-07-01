@@ -32,7 +32,7 @@ Site meramente informativo (sem login). Secções: Home, Quem Somos, Serviços (
 - P1: Backend para receber submissões do formulário de contacto (FastAPI + MongoDB + email opcional via Resend).
 - P1: Página CMS-lite para gerir posts do blog (admin) — ou conexão a Markdown/Strapi.
 - P2: SEO: meta tags por idioma, sitemap.xml, schema.org Organization/LocalBusiness.
-- P2: Substituir placeholders [Nome Empresa] por dados reais quando fornecidos.
+- P2: Substituir placeholders Reis&Reis por dados reais quando fornecidos.
 - P2: Acessibilidade — adicionar `VisuallyHidden SheetTitle` no Sheet mobile (aviso Radix não bloqueante).
 - P2: Lazy-load de imagens, otimização Core Web Vitals.
 - P3: Calculadoras úteis (IRS, IVA) na área de recursos.

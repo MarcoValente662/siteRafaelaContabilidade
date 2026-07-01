@@ -50,8 +50,8 @@ export const translations = {
     },
     about: {
       eyebrow: "Quem Somos",
-      title: "Uma firma construída sobre rigor e proximidade.",
-      sub: "Somos uma equipa de contabilistas certificados, fiscalistas e consultores de gestão dedicados a proteger e fazer crescer o seu negócio.",
+      title: "17 Anos de Experiência em Contabilidade e Gestão de Empresas.",
+      sub: "Sedeada em Almancil no Algarve a Reis & Reis apresenta uma equipa multidisciplinar composta por profissionais com formação especifica em contabilidade, fiscalidade, processamento de slaários e finanças. Os profissionais da Reis & Reis procuram constantemente trazer valor acrescentado aos clientes, quer na realização de tarefas de contabilidade, quer na contínua deteção de oportunidades de melhoria financeira e operacional que originem redução de custos das empresas.",
       missionLabel: "Missão",
       mission: "Apoiar empresas e empresários com serviços contabilísticos rigorosos, claros e acessíveis — libertando tempo para que se foquem no que sabem fazer melhor.",
       visionLabel: "Visão",
@@ -245,8 +245,8 @@ export const translations = {
     },
     about: {
       eyebrow: "About Us",
-      title: "A firm built on rigor and proximity.",
-      sub: "We are a team of certified accountants, tax experts and management consultants dedicated to protecting and growing your business.",
+      title: "17 Years of Experience in Accounting and Business Management.",
+      sub: "Based in Almancil, in the Algarve, Reis & Reis features a multidisciplinary team of professionals with specialized training in accounting, taxation, payroll processing, and finance. Reis & Reis professionals constantly strive to deliver added value to clients, whether by performing accounting tasks or by continuously identifying opportunities for financial and operational improvements that lead to cost reductions for their businesses.",
       missionLabel: "Mission",
       mission: "To support companies and entrepreneurs with rigorous, clear and accessible accounting services — freeing them to focus on what they do best.",
       visionLabel: "Vision",
@@ -390,8 +390,8 @@ export const translations = {
     },
     about: {
       eyebrow: "Quiénes Somos",
-      title: "Una firma construida sobre el rigor y la cercanía.",
-      sub: "Somos un equipo de contables certificados, fiscalistas y consultores de gestión dedicados a proteger y hacer crecer tu negocio.",
+      title: "17 años de experiencia en contabilidad y gestión empresarial.",
+      sub: "Con sede en Almancil, en el Algarve, Reis & Reis cuenta con un equipo multidisciplinario de profesionales con formación especializada en contabilidad, fiscalidad, gestión de nóminas y finanzas. Los profesionales de Reis & Reis se esfuerzan constantemente por aportar valor añadido a sus clientes, ya sea mediante la realización de tareas contables o identificando continuamente oportunidades de mejora financiera y operativa que conduzcan a una reducción de costes para sus empresas.",
       missionLabel: "Misión",
       mission: "Apoyar a empresas y emprendedores con servicios contables rigurosos, claros y accesibles — liberando tiempo para que se enfoquen en lo que mejor saben hacer.",
       visionLabel: "Visión",
