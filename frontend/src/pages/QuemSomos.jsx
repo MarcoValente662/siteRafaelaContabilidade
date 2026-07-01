@@ -20,7 +20,7 @@ const QuemSomos = () => {
             </div>
             <div className="lg:col-span-5 fade-up fade-up-delay-2">
               <img
-                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHMlMjBtZWV0aW5nfGVufDB8fHx8MTc4MjgzMzA5M3ww&ixlib=rb-4.1.0&q=85"
+                src="https://reisreis.pt/wp-content/uploads/2023/01/QUEM_SOMOS_4.png"
                 alt="Team meeting"
                 className="w-full h-[460px] object-cover"
               />
