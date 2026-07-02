@@ -51,7 +51,7 @@ const Header = () => {
           >
             <div className="w-9 h-9 bg-navy flex items-center justify-center">
               <span className="text-white font-display font-bold text-lg leading-none">
-                RR
+                <img src="https://reisreis.pt/wp-content/uploads/2023/01/logo-blue.svg"></img>
               </span>
             </div>
             <div className="flex flex-col leading-none">
