@@ -15,7 +15,16 @@ const QuemSomos = () => {
                 {t.about.title}
               </h1>
               <p className="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl">
-                {t.about.sub}
+                {t.about.sub1}
+              </p>
+              <p className="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl">
+                {t.about.sub2}
+              </p>
+              <p className="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl">
+                {t.about.sub3}
+              </p>
+              <p className="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl">
+                {t.about.sub4}
               </p>
             </div>
             <div className="lg:col-span-5 fade-up fade-up-delay-2">

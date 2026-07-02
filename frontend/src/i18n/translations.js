@@ -51,13 +51,10 @@ export const translations = {
     about: {
       eyebrow: "Quem Somos",
       title: "Sobre Nós.",
-      sub: `A Reis & Reis é uma empresa de contabilidade com mais de 17 anos de experiência, com escritórios em Almancil (Algarve) e em Lisboa.
-      
-      Neste momento a Reis & Reis fornece os seus serviços a empresas nacionais e internacionais de diversos setores de atividade e a um leque de clientes particulares de inúmeras nacionalidades e com necessidades distintas, sempre com o objetivo de providenciar o melhor serviço e aconselhamento.
-      
-      A nossa equipa de profissionais especializados nas áreas de contabilidade, fiscalidade e recursos-humanos, procura prestar o melhor apoio a cada cliente, ajustado às suas necessidades específicas.
-      
-      Enquanto empresa, a Reis & Reis preza pela honestidade, integridade e justiça perante todos aqueles com os quais mantém relações profissionais, assegurando assim o seu crescimento continuo.`,
+      sub1: "A Reis & Reis é uma empresa de contabilidade com mais de 17 anos de experiência, com escritórios em Almancil (Algarve) e em Lisboa.",
+      sub2: "Neste momento a Reis & Reis fornece os seus serviços a empresas nacionais e internacionais de diversos setores de atividade e a um leque de clientes particulares de inúmeras nacionalidades e com necessidades distintas, sempre com o objetivo de providenciar o melhor serviço e aconselhamento.",
+      sub3: "A nossa equipa de profissionais especializados nas áreas de contabilidade, fiscalidade e recursos-humanos, procura prestar o melhor apoio a cada cliente, ajustado às suas necessidades específicas.",
+      sub4: "Enquanto empresa, a Reis & Reis preza pela honestidade, integridade e justiça perante todos aqueles com os quais mantém relações profissionais, assegurando assim o seu crescimento continuo.",
       missionLabel: "Missão",
       mission: "Prestar o melhor serviço a cada cliente, ajustado às suas necessidades e objetivos específicos. Através dos nossos serviços pretendemos que seja alcançado o sucesso de ambas as partes.",
       visionLabel: "Visão",
