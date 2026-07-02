@@ -227,24 +227,27 @@ const Contactos = () => {
       </section>
 
       {/* Map */}
-      <section className="py-20 lg:py-28 bg-[#F8F9FA]">
+      <section className="border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
-            {t.contact.mapTitle} - {t.contact.mapTitleLocation1}
-          </h2>
-          <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
-            <iframe
-              title="Office location"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-8.047828%2C37.098704%2C-8.017828%2C37.068704&layer=mapnik&marker=37.083704%2C-8.032828"
-              className="w-full h-[420px] border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-          <p className="mt-4 text-sm text-slate-500">{t.contact.address1}</p>
-          
+          <section className="py-20 lg:py-28 bg-[#F8F9FA]">
+            <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
+              {t.contact.mapTitle} - {t.contact.mapTitleLocation1}
+            </h2>
+            <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
+              <iframe
+                title="Office location"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-8.047828%2C37.098704%2C-8.017828%2C37.068704&layer=mapnik&marker=37.083704%2C-8.032828"
+                className="w-full h-[420px] border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+            <p className="mt-4 text-sm text-slate-500">{t.contact.address1}</p>
+          </section>
+
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight"/>
 
+          <section className="py-20 lg:py-28 bg-[#F8F9FA]">
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
             {t.contact.mapTitle} - {t.contact.mapTitleLocation2}
           </h2>
@@ -258,6 +261,7 @@ const Contactos = () => {
             />
           </div>
           <p className="mt-4 text-sm text-slate-500">{t.contact.address2}</p>
+          </section>
         </div>
       </section>
     </div>
