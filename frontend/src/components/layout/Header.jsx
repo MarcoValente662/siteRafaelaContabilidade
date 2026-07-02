@@ -60,7 +60,7 @@ const Header = () => {
                 Reis&Reis
               </span>
               <span className="text-[10px] tracking-[0.2em] uppercase text-slate-500 mt-0.5">
-                Contabilidade
+                gestão de empresas
               </span>
             </div>
           </Link>
