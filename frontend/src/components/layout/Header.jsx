@@ -50,7 +50,7 @@ const Header = () => {
             className="flex items-center gap-2 group"
             onClick={closeMobile}
           >
-            {/* <div className="w-9 h-9 bg-navy flex items-center justify-center">
+            <div className="w-9 h-9 bg-navy flex items-center justify-center">
               <span className="text-white font-display font-bold text-lg leading-none">
                 RR
               </span>
@@ -62,8 +62,7 @@ const Header = () => {
               <span className="text-[10px] tracking-[0.2em] uppercase text-slate-500 mt-0.5">
                 Contabilidade
               </span>
-            </div> */}
-            <img src="https://reisreis.pt/wp-content/uploads/2023/01/logo-blue.svg"/>
+            </div>
           </Link>
 
           {/* Desktop nav */}
