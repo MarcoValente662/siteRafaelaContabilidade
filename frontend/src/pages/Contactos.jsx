@@ -232,6 +232,7 @@ const Contactos = () => {
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
             {t.contact.mapTitle} - {t.contact.mapTitleLocation1}
           </h2>
+          <p className="mt-4 text-sm text-slate-500">{t.contact.address1}</p>
           <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
             <iframe
               title="Office location"
@@ -241,10 +242,13 @@ const Contactos = () => {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <p className="mt-4 text-sm text-slate-500">{t.contact.address1}</p>
+          
+          <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight"/>
+          
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
             {t.contact.mapTitle} - {t.contact.mapTitleLocation2}
           </h2>
+          <p className="mt-4 text-sm text-slate-500">{t.contact.address2}</p>
           <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
             <iframe
               title="Office location"
@@ -254,7 +258,6 @@ const Contactos = () => {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <p className="mt-4 text-sm text-slate-500">{t.contact.address2}</p>
         </div>
       </section>
     </div>
