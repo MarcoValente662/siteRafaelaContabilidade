@@ -63,7 +63,7 @@ const Header = () => {
                 Contabilidade
               </span>
             </div> */}
-            <img src="https://reisreis.pt/wp-content/uploads/2023/01/logo-blue.svg" alt={post.title[lang]} className="w-full h-full object-cover"/>
+            <img src="https://reisreis.pt/wp-content/uploads/2023/01/logo-blue.svg" alt={post.title[lang]}/>
           </Link>
 
           {/* Desktop nav */}
