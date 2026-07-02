@@ -43,15 +43,16 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
+          
           <Link
             to="/"
             data-testid="nav-logo"
             className="flex items-center gap-2 group"
             onClick={closeMobile}
           >
-            <div className="w-9 h-9 bg-navy flex items-center justify-center">
+            {/* <div className="w-9 h-9 bg-navy flex items-center justify-center">
               <span className="text-white font-display font-bold text-lg leading-none">
-                <img src="https://reisreis.pt/wp-content/uploads/2023/01/logo-blue.svg"></img>
+                RR
               </span>
             </div>
             <div className="flex flex-col leading-none">
@@ -61,7 +62,8 @@ const Header = () => {
               <span className="text-[10px] tracking-[0.2em] uppercase text-slate-500 mt-0.5">
                 Contabilidade
               </span>
-            </div>
+            </div> */}
+            <img src="https://reisreis.pt/wp-content/uploads/2023/01/logo-blue.svg"></img>
           </Link>
 
           {/* Desktop nav */}
