@@ -171,7 +171,7 @@ export const translations = {
       addressLabel1: "Morada Almancil",
       address1: "Rua Cristóvão Pires Norte, R/C 139, 8135-117, Almancil, Portugal",
       addressLabel2: "Morada Lisboa",
-      address2: "Avenida da República 6, 1º Andar, 1050-191, Lisboa, Portugal",
+      address2: "Avenida da República 6, 1º Andar, 1050-191, Lisboa, Portugal ",
       phoneLabel: "Telefone",
       phone: "(+351) 289 393 461",
       emailLabel: "Email",
