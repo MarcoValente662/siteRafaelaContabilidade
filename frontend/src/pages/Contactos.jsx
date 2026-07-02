@@ -88,7 +88,7 @@ const Contactos = () => {
                 <h3 className="overline mb-4">— {t.contact.socialLabel}</h3>
                 <div className="flex items-center gap-3">
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/reisreis.pt/"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-testid="contact-social-facebook"
@@ -98,7 +98,7 @@ const Contactos = () => {
                     <Facebook className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://instagram.com"
+                    href="instagram.com/reisreis.pt/"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-testid="contact-social-instagram"
@@ -108,7 +108,7 @@ const Contactos = () => {
                     <Instagram className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/reisreis/"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-testid="contact-social-linkedin"

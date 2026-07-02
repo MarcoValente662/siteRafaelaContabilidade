@@ -18,7 +18,7 @@
   ],
   "critical_code_review_comments": [
     "Header.jsx is 315 lines and mixes desktop nav, dropdown, mobile drawer, and lang switcher; consider splitting into DesktopNav / MobileDrawer / LangSwitcher subcomponents.",
-    "Social links in Footer point to hardcoded https://facebook.com / instagram.com / linkedin.com root domains instead of company profile URLs - placeholders are acceptable for an info site but should be parametrised in a config (matches Reis&Reis placeholder convention).",
+    "Social links in Footer point to hardcoded https://www.facebook.com/reisreis.pt/ / instagram.com/reisreis.pt/ / https://www.linkedin.com/in/reisreis/ root domains instead of company profile URLs - placeholders are acceptable for an info site but should be parametrised in a config (matches Reis&Reis placeholder convention).",
     "SheetContent in Header lacks an accessible title; add a visually-hidden title to satisfy Radix a11y contract.",
     "Backend untouched (only hello-world endpoints); contact form success appears to be client-side only - confirm intended behaviour (no persistence)."
   ],

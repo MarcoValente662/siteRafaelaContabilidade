@@ -76,7 +76,7 @@ const Footer = () => {
             <h4 className="overline !text-slate-400 mt-6 mb-3">{t.footer.followLabel}</h4>
             <div className="flex items-center gap-3">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/reisreis.pt/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="footer-social-facebook"
@@ -86,7 +86,7 @@ const Footer = () => {
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="instagram.com/reisreis.pt/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="footer-social-instagram"
@@ -96,7 +96,7 @@ const Footer = () => {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/reisreis/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="footer-social-linkedin"
