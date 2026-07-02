@@ -243,8 +243,9 @@ const Contactos = () => {
           </div>
           <p className="mt-4 text-sm text-slate-500">{t.contact.address1}</p>
 
-          <p className="mt-4 text-sm text-slate-500"></p>
-          <p className="mt-4 text-sm text-slate-500"></p>
+          <br/>
+          <br/>
+          <br/>
 
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
             {t.contact.mapTitle} - {t.contact.mapTitleLocation2}
