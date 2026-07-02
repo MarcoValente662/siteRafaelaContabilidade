@@ -229,7 +229,6 @@ const Contactos = () => {
       {/* Map */}
       <section className="py-20 lg:py-28 bg-[#F8F9FA]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <section className="py-20 lg:py-28 bg-[#F8F9FA]">
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
               {t.contact.mapTitle} - {t.contact.mapTitleLocation1}
             </h2>
@@ -243,9 +242,8 @@ const Contactos = () => {
               />
             </div>
             <p className="mt-4 text-sm text-slate-500">{t.contact.address1}</p>
-          </section>
 
-          <section className="py-20 lg:py-28 bg-[#F8F9FA]">
+
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
             {t.contact.mapTitle} - {t.contact.mapTitleLocation2}
           </h2>
@@ -259,7 +257,6 @@ const Contactos = () => {
             />
           </div>
           <p className="mt-4 text-sm text-slate-500">{t.contact.address2}</p>
-          </section>
         </div>
       </section>
     </div>
