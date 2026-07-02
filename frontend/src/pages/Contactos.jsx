@@ -235,7 +235,7 @@ const Contactos = () => {
           <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
             <iframe
               title="Office location"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-9.165%2C38.715%2C-9.135%2C38.735&layer=mapnik&marker=38.725%2C-9.150"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-8.047828%2C37.098704%2C-8.017828%2C37.068704&layer=mapnik&marker=37.083704%2C-8.032828"
               className="w-full h-[420px] border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -250,7 +250,7 @@ const Contactos = () => {
           <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
             <iframe
               title="Office location"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-9.165%2C38.715%2C-9.135%2C38.735&layer=mapnik&marker=38.725%2C-9.150"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-9.1596758%2C38.7197557%2C-9.1296758%2C38.7497557&layer=mapnik&marker=38.7347557%2C-9.1446758"
               className="w-full h-[420px] border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
