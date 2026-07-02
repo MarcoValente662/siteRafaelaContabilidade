@@ -188,6 +188,8 @@ export const translations = {
       formSubmit: "Enviar mensagem",
       formSuccess: "Mensagem enviada. Entraremos em contacto brevemente.",
       mapTitle: "Onde estamos",
+      mapTitleLocation1: "Almancil",
+      mapTitleLocation2: "Lisboa",
     },
     footer: {
       tagline: "Contabilidade, fiscalidade e consultoria para empresas que querem crescer com confiança.",
@@ -341,6 +343,8 @@ export const translations = {
       formSubmit: "Send message",
       formSuccess: "Message sent. We will get back to you shortly.",
       mapTitle: "Find us",
+      mapTitleLocation1: "Almancil",
+      mapTitleLocation2: "Lisboa",
     },
     footer: {
       tagline: "Accounting, tax and consulting for companies that want to grow with confidence.",
@@ -494,6 +498,8 @@ export const translations = {
       formSubmit: "Enviar mensaje",
       formSuccess: "Mensaje enviado. Te contactaremos en breve.",
       mapTitle: "Dónde estamos",
+      mapTitleLocation1: "Almancil",
+      mapTitleLocation2: "Lisboa",
     },
     footer: {
       tagline: "Contabilidad, fiscalidad y consultoría para empresas que quieren crecer con confianza.",

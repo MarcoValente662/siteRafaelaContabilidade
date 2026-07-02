@@ -230,7 +230,7 @@ const Contactos = () => {
       <section className="border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
-            {t.contact.mapTitle}
+            {t.contact.mapTitle} - {t.contact.mapTitleLocation1}
           </h2>
           <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
             <iframe
@@ -241,7 +241,22 @@ const Contactos = () => {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <p className="mt-4 text-sm text-slate-500">{t.contact.address}</p>
+          <p className="mt-4 text-sm text-slate-500">{t.contact.address1}</p>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-8 tracking-tight">
+            {t.contact.mapTitle} - {t.contact.mapTitleLocation2}
+          </h2>
+          <div className="border border-slate-200 overflow-hidden" data-testid="contact-map">
+            <iframe
+              title="Office location"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-9.165%2C38.715%2C-9.135%2C38.735&layer=mapnik&marker=38.725%2C-9.150"
+              className="w-full h-[420px] border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+          <p className="mt-4 text-sm text-slate-500">{t.contact.address2}</p>
         </div>
       </section>
     </div>
