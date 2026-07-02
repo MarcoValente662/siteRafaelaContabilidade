@@ -90,7 +90,7 @@
   },
   "instructions_to_main_agent": [
     "Use standard React/Tailwind/Shadcn for implementation.",
-    "Create the multi-page structure (Home, Quem Somos, Serviços, Blog, Recrutamento, Contacta-nos).",
+    "Create the multi-page structure (Home, Quem Somos, Serviços, Blog, Recrutamento).",
     "Build the language switcher in the Header (PT as default).",
     "For Services, implement a hover/click dropdown in the Navigation.",
     "Do NOT use purple or teal. Stick strictly to the White and Navy Blue (#0A1F44) palette.",

@@ -1,7 +1,7 @@
 # PRD — Site Informativo de Contabilidade
 
 ## Problema (original)
-Site meramente informativo (sem login). Secções: Home, Quem Somos, Serviços (com dropdown), Blog, Recrutamento e Contacta-nos. Estilo branco com detalhes azul marinho. Versões PT/EN/ES. Hiperligações Facebook/Instagram/LinkedIn. Localização no Contacta-nos. Conteúdo: serviços de contabilidade. Responsive desktop e mobile.
+Site meramente informativo (sem login). Secções: Home, Quem Somos, Serviços (com dropdown), Blog, Recrutamento. Estilo branco com detalhes azul marinho. Versões PT/EN/ES. Hiperligações Facebook/Instagram/LinkedIn. Localização no Contacta-nos. Conteúdo: serviços de contabilidade. Responsive desktop e mobile.
 
 ## Personas
 - Visitante PME / empresário a avaliar uma firma de contabilidade
