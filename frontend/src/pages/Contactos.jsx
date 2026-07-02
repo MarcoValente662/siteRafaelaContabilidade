@@ -38,20 +38,6 @@ const Contactos = () => {
               <div>
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-[#F1F5F9] flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-5 h-5 text-navy" />
-                  </div>
-                  <div>
-                    <h3 className="overline">— {t.contact.addressLabel}</h3>
-                    <p className="font-display text-base font-medium text-navy mt-1.5" data-testid="contact-address">
-                      {t.contact.address}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 bg-[#F1F5F9] flex items-center justify-center flex-shrink-0">
                     <Phone className="w-5 h-5 text-navy" />
                   </div>
                   <div>
@@ -61,14 +47,28 @@ const Contactos = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-[#F1F5F9] flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-5 h-5 text-navy" />
+                    <MapPin className="w-5 h-5 text-navy" />
                   </div>
                   <div>
-                    <h3 className="overline">— {t.contact.emailLabel}</h3>
-                    <p className="font-display text-base font-medium text-navy mt-1.5 break-all" data-testid="contact-email">
-                      {t.contact.email}
+                    <h3 className="overline">— {t.contact.addressLabel1}</h3>
+                    <p className="font-display text-base font-medium text-navy mt-1.5" data-testid="contact-address">
+                      {t.contact.address1}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-[#F1F5F9] flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-5 h-5 text-navy" />
+                  </div>
+                  <div>
+                    <h3 className="overline">— {t.contact.addressLabel2}</h3>
+                    <p className="font-display text-base font-medium text-navy mt-1.5" data-testid="contact-address">
+                      {t.contact.address2}
                     </p>
                   </div>
                 </div>
