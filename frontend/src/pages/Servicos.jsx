@@ -42,7 +42,7 @@ const Servicos = () => {
           <div className="space-y-px bg-slate-200 border border-slate-200">
             {t.servicesPage.list.map((s, idx) => {
               const Ic = icons[s.key] || Calculator;
-              const reversed = true;//idx % 2 === 1;
+              const reversed = false;//idx % 2 === 1;
               return (
                 <div
                   key={s.key}
