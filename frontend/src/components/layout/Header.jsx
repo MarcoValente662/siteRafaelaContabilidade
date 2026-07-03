@@ -38,8 +38,12 @@ const Header = () => {
   return (
     <header
       data-testid="site-header"
-      className="sticky top-0 z-50 w-full bg-white/85 backdrop-blur-xl border-b border-slate-200"
+      className="sticky top-0 z-50 w-full bg-navy backdrop-blur-xl border-b border-slate-200"
     >
+    {/* <header
+      data-testid="site-header"
+      className="sticky top-0 z-50 w-full bg-white/85 backdrop-blur-xl border-b border-slate-200"
+    > */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
